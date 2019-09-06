@@ -5,9 +5,9 @@ function Cities(props){
     
     // console.log(props);
     return (
-        
-            <div className="row">
-                <div className="col s6 m3">
+       
+            
+                <div className="col s6 m5">
                     <div className="card-panel blue">
                         <span className="white-text">
                             Rank {props.data.Rank}. {props.data.Capital}<br/>
@@ -17,7 +17,8 @@ function Cities(props){
                         </span>
                     </div>
                 </div>
-            </div>
+           
+           
         
     ) 
 }

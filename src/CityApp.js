@@ -28,10 +28,11 @@ class CityApp extends Component {
             )
         })
         return (
-            <div>
+            <div className="container">
+            <div className="row">
                 {citiesArray}
             </div>
-
+        </div>
         )
     }
 }
